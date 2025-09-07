@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>My Personal Portfolio</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Navigation links to sections on the page -->
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+    </nav>
+
+    <!-- Hero Section: Your name and a short tagline -->
+    <section class="hero" id="home">
+        <!-- Personal image above the name -->
+        <img src="img/laptop.jpg" alt="Personal photo" class="profile-img">
+        <!-- Main heading with your name -->
+        <h1>Nour Hamado</h1>
+        <!-- Short description or tagline -->
+        <p>Computer Science & Engineering Student</p>
+    </section>
+
+    <!-- Bio Section: A short introduction about yourself -->
+    <section class="bio" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science & Engineering student, passionate about AI, Web Development, problem-solving, and continuous learning. I strive to go above and beyond in every task, while building skills in web development, systems engineering, and emerging technologies. Committed to growth and collaboration, I aim to make a positive impact in both academic and professional settings.
+        </p>
+    </section>
+
+    <!-- Skills Section: List your web development skills -->
+    <section class="skills" id="skills">
+        <h2> My Skills</h2>
+        <!-- Skills are shown horizontally with their symbols above -->
+        <div class="skills-list">
+            <!-- HTML Skill -->
+            <div class="skill-item">
+                <img src="img/HTML.svg" alt="HTML symbol" class="skill-icon">
+                <div>HTML</div>
+            </div>
+            <!-- CSS Skill -->
+            <div class="skill-item">
+                <img src="img/CSS.svg" alt="CSS symbol" class="skill-icon">
+                <div>CSS</div>
+            </div>
+            <!-- JavaScript Skill -->
+            <div class="skill-item">
+                <img src="img/JavaScript.png" alt="JavaScript symbol" class="skill-icon">
+                <div>JavaScript</div>
+            </div>
+            <!-- Python Skill -->
+            <div class="skill-item">
+                <img src="img/Python.svg" alt="Python symbol" class="skill-icon">
+                <div>Python</div>
+            </div>
+            <!-- Unity Skill -->
+            <div class="skill-item">
+                <img src="img/Unity.svg" alt="Unity symbol" class="skill-icon">
+                <div>Unity</div>
+            </div>
+            <!-- Virtual Reality Skill -->
+            <div class="skill-item">
+                <img src="img/VR.svg" alt="Virtual Reality symbol" class="skill-icon">
+                <div>Virtual Reality</div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -1,1 +1,111 @@
+/* Import Roboto Serif font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Serif:400,700&display=swap');
+
 /* Add you CSS here */
+
+/* Set a simple background color and font for the whole page */
+body {
+    background-color: #f3e8ff; /* light purple background */
+    font-family: 'Roboto Serif', serif; /* Use Roboto Serif font */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+}
+
+/* Style for the hero section */
+.hero {
+    /* Set Hero.jpg as the background image */
+    background-image: url('img/hero.jpg');
+    background-size: cover; /* Make the image cover the whole section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: rgb(253, 252, 253); /* white text */
+    text-align: center; /* center the text */
+    padding: 40px 20px; /* space around content */
+    min-height: 200px; /* Make the hero section longer */
+}
+
+/* Style for the personal image in the hero section */
+.profile-img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto 20px auto; /* Center the image and add space below */
+    width: 120px; /* Set image size */
+    height: 120px; /* Set image size */
+    object-fit: cover; /* Crop the image to fit the circle */
+    border-radius: 90%; /* Make the image a circle */
+    border: 3px solid white; /* Optional: white border for contrast */
+}
+
+/* Style for the bio section */
+.bio {
+    background-color: #f3e8ff; /* white background */
+    color: #201f1f; /* dark text */
+    max-width: 600px; /* limit width for readability */
+    margin: 30px auto; /* center the section */
+    padding: 20px; /* space inside the section */
+    text-align: center; /* Center the bio text */
+}
+
+/* Style for the skills section */
+.skills {
+    background-color: rgb(221, 157, 234);
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center; /* Center the skills section */
+}
+
+/* Show skills horizontally and remove bullet points */
+.skills-list {
+    display: flex; /* Show items in a row */
+    justify-content: center; /* Center the skills */
+    gap: 30px; /* Space between skills */
+    margin-top: 40px; /* Larger space above skills list */
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column; /* Stack icon above text */
+    align-items: center; /* Center icon and text */
+}
+
+/* Style for skill icons */
+.skill-icon {
+    width: 40px; /* Set icon size */
+    height: 40px;
+    margin-bottom: 20px; /* Increased space between icon and skill name */
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Style for section headings */
+h2 {
+    color: #480766; /* blue color for headings */
+}
+
+/* Make space between lines in paragraphs larger for easier reading */
+p {
+    line-height: 1.7;
+}
+
+/* Simple navigation bar styles */
+.navbar {
+    background-color: #903cb7; /* dark purple background */
+    padding: 12px 0; /* space above and below links */
+    text-align: center; /* center the links */
+}
+
+/* Style for navigation links */
+.navbar a {
+    color: #fff; /* white text */
+    text-decoration: none; /* remove underline */
+    margin: 0 18px; /* space between links */
+    font-size: 1.1em; /* slightly larger text */
+    font-family: 'Roboto Serif', serif; /* match site font */
+}
+
+/* Highlight link on hover */
+.navbar a:hover {
+    text-decoration: underline; /* underline on hover */
+}
