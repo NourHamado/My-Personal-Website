@@ -81,7 +81,7 @@ body {
 
 /* Style for section headings */
 h2 {
-    color: #480766; /* blue color for headings */
+    color: #480766; 
 }
 
 /* Make space between lines in paragraphs larger for easier reading */
@@ -146,4 +146,14 @@ p {
     color: #480766;
     margin-bottom: 10px;
 }
+
+.footer {
+    background-color: #903cb7; /* match navbar color */
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
 
